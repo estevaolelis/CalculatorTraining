@@ -1,0 +1,85 @@
+body {
+    background-color: #282a36;
+    margin-left: auto;
+    width: 60%;
+}
+
+div {
+    margin: 10px;
+}
+
+input[type=text] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(-10px);
+}
+
+.container {
+    position: relative;
+  }
+
+#red_btn {
+    text-align: auto;
+    margin-right: 0;
+    line-height: 8px;
+    width: 50px;
+    height: 50px;
+    color: #ff5555;
+    background-color: #44475a;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+} 
+
+#pink_btn {
+    text-align: auto;
+    margin-right: 0;
+    line-height: 8px;
+    width: 50px;
+    height: 50px;
+    color: #ff79c6;
+    background-color: #44475a;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#equals_btn {
+    text-align: auto;
+    margin-right: 0;
+    line-height: 8px;
+    width: 105px;
+    height: 50px;
+    color: #ff79c6;
+    background-color: #44475a;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#number_btn {
+    text-align: auto;
+    line-height: 8px;
+    width: 50px;
+    height: 50px;
+    color: #bd93f9;
+    background-color: #44475a;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+}

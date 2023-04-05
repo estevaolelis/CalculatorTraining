@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-</body>
+    <div id="showResult">
+        <form>
+            <input type="text" class="screen">
+        </form>
+    </div>
+    <div class="buttons">
+        <button id="red_btn" class="clear_btn"> C </button>
+        <button id="pink_btn" class="btn"> () </button>
+        <button id="pink_btn" class="btn"> % </button>
+        <button id="pink_btn" class="divide_btn" data-num="/"> / </button>
+    </div>
+    <div class="buttons">
+        <button id="number_btn" class="btn" data-num="7">7</button>
+        <button id="number_btn" class="btn" data-num="8">8</button>
+        <button id="number_btn" class="btn" data-num="9">9</button>
+        <button id="pink_btn" class="multiply_btn" data-num="*"> * </button>
+    </div>
+    <div class="buttons">
+        <button id="number_btn" class="btn" data-num="4">4</button>
+        <button id="number_btn" class="btn" data-num="5">5</button>
+        <button id="number_btn" class="btn" data-num="6">6</button>
+        <button id="pink_btn" class="less_btn"> - </button>
+    </div>
+    <div class="buttons">
+        <button id="number_btn" class="btn" data-num="1">1</button>
+        <button id="number_btn" class="btn" data-num="2">2</button>
+        <button id="number_btn" class="btn" data-num="3">3</button>
+        <button id="pink_btn" class="plus_btn" data-num="+">+</button>
+    </div>
+    <div class="buttons">
+        <button id="number_btn" class="btn" data-num="0">0</button>
+        <button id="pink_btn" class="btn"> . </button>
+        <button id="equals_btn" class="equal_btn"> = </button>
+    </div>
+
+    <script src="script.js"></script>
 </html>

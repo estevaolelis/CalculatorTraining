@@ -1,5 +1,6 @@
 body {
     background-color: #282a36;
+    margin-top: 8rem;
     margin-left: auto;
     width: 60%;
 }
@@ -9,9 +10,11 @@ div {
 }
 
 input[type=text] {
-    width: 45%;
+    min-width: 214px;
+    max-width: 214px;
     padding: 12px 20px;
     margin: 8px 0;
+    size: inherit;
     box-sizing: border-box;
     border-radius: 8px;
 }
